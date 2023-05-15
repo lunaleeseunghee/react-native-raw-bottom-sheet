@@ -1,6 +1,6 @@
 {
-  "name": "@luna/react-native-raw-bottom-sheet",
-  "version": "2.2.1",
+  "name": "@lunalee/react-native-raw-bottom-sheet",
+  "version": "2.2.2",
   "description": "Add Your Own Component To Bottom Sheet Whatever You Want (Android & iOS)",
   "main": "index.js",
   "typings": "index.d.ts",
