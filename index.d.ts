@@ -1,7 +1,7 @@
 import { Component } from "react"
 import { StyleProp, ViewStyle } from "react-native"
 
-declare module "@lunalee/react-native-bottom-sheet" {
+declare module "@lunalee/react-native-raw-bottom-sheet" {
   export type RBSheetProps = {
     animationType?: "none" | "fade" | "slide"
     height?: number
