@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component, PropsWithChildren } from "react";
 import { StyleProp, ViewStyle } from "react-native";
 
 declare module "react-native-raw-bottom-sheet" {
@@ -22,7 +22,7 @@ declare module "react-native-raw-bottom-sheet" {
     keyboardAvoidingViewEnabled?: boolean;
   };
 
-  export default class RBSheet extends Component<RBSheetProps> {
+  export default class RBSheet extends Component<PropsWithChildren<RBSheetProps>> {
     open(): void;
     close(): void;
   }
